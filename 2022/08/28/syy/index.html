@@ -191,6 +191,15 @@
    
   <nav class="article-nav">
     
+      <a href="/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            今天是8.29
+          
+        </div>
+      </a>
+    
     
       <a href="/2022/08/28/hello-world/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
@@ -199,7 +208,55 @@
     
   </nav>
 
-  
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.staticfile.org/valine/1.4.16/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "YPwlYJpq0qzmBBEGtK4kBkTy-gzGzoHsz",
+    app_key: "eCnvrdUX04DSvmE1VwKLIlXX",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
    
     
     <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
@@ -293,7 +350,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/">旅行</a>
+      <a class="nav-item-link" href="/document/">分享</a>
     </li>
     
     <li class="nav-item">

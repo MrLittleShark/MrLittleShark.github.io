@@ -119,11 +119,19 @@
   
   
   
+
 <div class="notice" style="margin-top:50px">
     <i class="ri-heart-fill"></i>
-    <div class="notice-content">一个安静优雅的hexo主题，快速且响应式。</div>
+    <div class="notice-content" id="broad"></div>
 </div>
-
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
 
 <style>
     .notice {
@@ -156,6 +164,54 @@
     
     
     
+    
+    <article
+  id="post-今天是8-29"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/"
+    >今天是8.29</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/" class="article-date">
+  <time datetime="2022-08-29T02:01:59.000Z" itemprop="datePublished">2022-08-29</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p><img src="/.com//2.jpg" alt="这是一张图片"><br>这是一张图片</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
     
     <article
   id="post-syy"
@@ -205,7 +261,8 @@
     </footer>
   </div>
 
-   
+    
+ 
     
 </article>
 
@@ -270,7 +327,8 @@
     </footer>
   </div>
 
-   
+    
+ 
     
 </article>
 
@@ -362,7 +420,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/">旅行</a>
+      <a class="nav-item-link" href="/document/">分享</a>
     </li>
     
     <li class="nav-item">

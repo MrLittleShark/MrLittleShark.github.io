@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-28T13:40:24.018Z</updated>
+  <updated>2022-08-29T02:12:17.225Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>今天是8.29</title>
+    <link href="http://example.com/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/"/>
+    <id>http://example.com/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/</id>
+    <published>2022-08-29T02:01:59.000Z</published>
+    <updated>2022-08-29T02:12:17.225Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/.com//2.jpg" alt="这是一张图片"><br>这是一张图片</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/.com//2.jpg&quot; alt=&quot;这是一张图片&quot;&gt;&lt;br&gt;这是一张图片&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>syy</title>
