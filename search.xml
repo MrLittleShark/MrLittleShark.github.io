@@ -20,27 +20,27 @@
       <categories>
         <category>X</category>
       </categories>
-      <tags>
-        <tag>笨蛋</tag>
-      </tags>
   </entry>
   <entry>
-    <title>syy</title>
-    <url>/2022/08/28/syy/</url>
-    <content><![CDATA[<p>Syy是大笨蛋！</p>
-]]></content>
+    <title>我和Ta的故事</title>
+    <url>/2022/08/29/%E6%88%91%E5%92%8CTa%E7%9A%84%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误！" data-whm="校验失败！">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c14ccfa5b56274bb0b5d08b1225d4252e2611510a7e6e19292436722bcdc2a1d">7b5e92f33f6697f734912f3de6162b480872f53847356a8d743dbdfc8dd83aca424a4db7310aa26e616402efdb8cf6e54623627103302ab967056af7b288508e4122c11a083fa56f598c7783ee0d2ca2e377288b544cf594fdd00c3b51757bfc96c99316446a399092cec1c7a4d2c07fd90037ec2f19863db9bd3d9de78f1478f6f1e1dbe334145add5d467be24f7a751427627164521a5ff09d6ca77f4b5762f6dce3a3e4cded7d8dd191804cf864215994f59534321be8eae100b969b6e17969694c3ec5a5678e83bd9089351024c49376d6187a9511ac2320f020d0f24e5f2e6a432e89c5a7a145434325e18dae1b2b54c260a6d19b6066f89ad95a546268df61a7296d068ac94350e2bba3543f6d2eb877f8f1ec519736711e5c3f04a9b6</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码...</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>X</category>
+        <category>小鲨鱼的恋爱史</category>
       </categories>
       <tags>
-        <tag>笨蛋</tag>
-        <tag>傻蛋</tag>
+        <tag>TA</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>今天是8.29</title>
-    <url>/2022/08/29/%E4%BB%8A%E5%A4%A9%E6%98%AF8-29/</url>
-    <content><![CDATA[<p><img src="/.com//2.jpg" alt="这是一张图片"><br>这是一张图片</p>
-]]></content>
   </entry>
 </search>
